@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.container{
+    margin: 0px auto;
+    border: 2px solid black;
+    height: auto;
+}
+
+header{
+    background-color:white;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header h1{
+    text-align: center ;
+    color: black;
+    padding-left: 50px;
+}
+
+.cover img{
+    width: 160px;
+    height: 160px;
+}
+
+.header h1{
+    text-align: center;
+    margin-right: 100px;
+}
+
+nav{
+    background-color: #34495e;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+
+}
+
+nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+nav.animation{
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: #1abc9c;
+    border-radius:8px ;
+    transition: all .5 ease 0s;
+}
+
+
+a:nth-child(1){
+    width: 100px;
+}
+
+a:nth-child(2){
+    width: 110px;
+}
+
+a:nth-child(3){
+    width: 100px;
+}
+
+a:nth-child(4){
+    width: 160px;
+}
+
+a:nth-child(5){
+    width: 120px;
+}
+
+
+.body{
+    display: flex;
+    height: auto;
+    width: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.maincontent{
+    background-color: white;
+    height: 1000px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maincontent-title{
+    background-color: #34495e;
+    height: 50px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.maincontent-title h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+
+.content img {
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.biodata{
+    margin-top: 50px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 10px;
+    width: 90%;
+}
+
+.biodata p{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.socialmedia img{
+    margin-top: 50px;
+    width: 100px;
+    height: auto;
+}
+
+.berita{
+    display: flex;
+}
+.gambar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.gambar1 a {
+    width: 50%;
+    margin-right: 70px;
+    margin-left: 100px;
+}
+
+.gambar2 a {
+    width: 50%;
+    margin-right: 80px;
+    
+}
+
+
+.gambar1 img{
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.gambar2 img{
+    width: 300px;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+
+.sidebar{
+    background-color: lightgrey;
+    height: 1000px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-title{
+    background-color: #34495e;
+    height: 50px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.sidebar-title h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+footer{
+    background-color: #34495e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
